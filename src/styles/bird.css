@@ -1,0 +1,243 @@
+    @keyframes flight {
+        0% {
+        transform: translateY(-20%) rotate(-3deg);
+        }
+        100% {
+        transform: translateY(20%) rotate(3deg);
+        }
+    }
+    @keyframes feather1 {
+        0% {
+            transform: rotate(130deg)
+        }
+        50% {
+            transform: rotate(110deg);
+        }
+        100% {
+            transform: rotate(130deg);
+        }  
+    }
+    @keyframes feather2 {
+        0% {
+            transform: rotate(160deg)
+        }
+        50% {
+            transform: rotate(140deg);
+        }
+        100% {
+            transform: rotate(160deg);
+        }        
+    }
+    @keyframes feather3 {
+        0% {
+            transform: rotate(190deg)
+        }
+        50% {
+            transform: rotate(170deg);
+        }
+        100% {
+            transform: rotate(190deg);
+        }
+    }
+    @keyframes wings {
+    0% {
+        transform: rotate(40deg)
+    }
+    100% {
+        transform: rotate(-40deg);
+    }
+    }
+    @keyframes wings-reverse {
+    0% {
+        transform: rotate(160deg)
+    }
+    100% {
+        transform: rotate(240deg);
+    }
+    }
+    @keyframes blink-eyes {
+        0% {
+            transform: rotatex(0deg)
+        }
+        50%{
+            transform: rotatex(0deg)
+        }
+        51%{
+            transform: rotatex(90deg)
+        }
+        52% {
+            transform: rotatex(0deg)
+        }
+        100% {
+            transform: rotatex(0deg)
+        } 
+    }
+  .div-animation {
+    width: 150px;
+    height: 150px;
+    top: 25%;
+    left: 5%;
+    position: absolute;
+    animation: flight 2s infinite ease-in-out forwards alternate;
+  }
+  .corps{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    height: 70px;
+    width: 70px;
+    border-radius: 50% 50% 30% 30%;
+  }
+  .bec{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0px 30px 15px 0px;
+    border-radius: 50%;
+    transform: rotate(140deg);
+    position: relative;
+    top: 45%;
+    left: 10%;
+    border-color: transparent transparent rgb(214, 184, 13) transparent;
+  }
+  .sourcil{
+    background-color: black;
+    width: 45px;
+    height: 9px;
+    border-radius: 70% 50% 0% 0%;
+    position: absolute;
+    top: 31%;
+    left: 33%;
+    transition: top 0.3s ease;
+  }
+  .corps:hover ~ .sourcil{
+    top: 36%;
+  }
+  .oeil-gauche{
+    width: 12px;
+    height: 15px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    animation: blink-eyes 10s infinite linear forwards;
+    
+  }
+  .oeil-droit{
+    width: 12px;
+    height: 15px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    animation: blink-eyes 10s infinite linear forwards;
+  }
+  .touffe{
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  .plume1{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 30px 10px 0px;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(100deg);
+    transform-origin: right;
+    top: 0%;
+    left: 5%;
+    border-color: transparent transparent black transparent;
+    animation: feather1 4s infinite cubic-bezier(.65,.42,.37,3) forwards;
+  }
+  .plume2{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 30px 10px 0px;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(130deg);
+    transform-origin: right;
+    top: 0%;
+    left: 5%;
+    border-color: transparent transparent black transparent;
+    animation: feather2 4s infinite cubic-bezier(.65,.42,.37,1.75) forwards;
+  }
+  .plume3{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 30px 10px 0px;
+    border-radius: 50%;
+    position: absolute;
+    transform: rotate(160deg);
+    transform-origin: right;
+    top: 0%;
+    left: 5%;
+    border-color: transparent transparent black transparent;
+    animation: feather3 4s infinite cubic-bezier(.65,.42,.37,1.5) forwards;
+  }
+  .aile-gauche{
+    background-color: black;
+    height: 12px;
+    width: 50px;
+    clip-path: ellipse( 50% 50%);
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform-origin: right;
+    animation: wings 0.10s infinite ease-in-out forwards alternate;
+
+  }
+  .aile-droite{
+    background-color: black;
+    height: 12px;
+    width: 50px;
+    clip-path: ellipse( 50% 50%);
+    position: relative;
+    top: 40%;
+    left: 35%;
+    transform-origin: right;
+    animation: wings-reverse 0.10s infinite ease-in-out forwards alternate;
+  }
+  .patte-gauche{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+  }
+  .patte-droite{
+    z-index: -2;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 64%;
+    left: 53%;
+  }
+  .griffe1, .griffe2{
+    z-index: -1;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 10px 25px 18px 0px;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    border-color: transparent transparent rgb(214, 184, 13) transparent;
+  }
+  .griffe1 {
+    position: absolute;
+  }
+  .griffe2{
+    
+    left: 40%;
+  }
