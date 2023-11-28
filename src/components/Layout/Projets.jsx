@@ -54,7 +54,7 @@ const Projets = ({ state, render }) => {
                           <img
                             className={`ImgProjet${index}`}
                             key={index}
-                            src={url}
+                            src={`/portfolio${url}`}
                             alt={`img ${index + 1}`}
                           />
                         </div>
