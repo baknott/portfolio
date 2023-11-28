@@ -5,7 +5,7 @@
         "description": " Transformer une maquette en site web avec HTML CSS",
         "duree" : "90h",
         "animations" : "hideAnimations",
-        "rendu" : ["/imgprojets/booki/booki.webp","/imgprojets/booki/booki2.webp","/imgprojets/booki/booki3.webp"]
+        "rendu" : ["/portfolio/imgprojets/booki/booki.webp","/portfolio/imgprojets/booki/booki2.webp","/portfolio/imgprojets/booki/booki3.webp"]
       },
       {
       "nom": "OhMyFood",
@@ -13,7 +13,7 @@
       "description": " Dynamiser une page web avec des animations CSS",
       "duree" : "70h",
       "animations" : "hideAnimations",
-      "rendu" : ["/imgprojets/ohmyfood/ohmyfood.webp","/imgprojets/ohmyfood/ohmyfood2.webp","/imgprojets/ohmyfood/ohmyfood3.webp"]
+      "rendu" : ["/portfolio/imgprojets/ohmyfood/ohmyfood.webp","/portfolio/imgprojets/ohmyfood/ohmyfood2.webp","/portfolio/imgprojets/ohmyfood/ohmyfood3.webp"]
     },
     {
       "nom": "La Panthère",
@@ -21,7 +21,7 @@
       "description": " Optimiser un site web existant",
       "duree" : "30h",
       "animations" : "hideAnimations",
-      "rendu" : ["/imgprojets/lapanthere/lapanthere.webp","/imgprojets/lapanthere/lapanthere2.webp"]
+      "rendu" : ["/portfolio/imgprojets/lapanthere/lapanthere.webp","/portfolio/imgprojets/lapanthere/lapanthere2.webp"]
     },
     {
       "nom": "Kanap",
@@ -29,7 +29,7 @@
       "description": " Construire un site e-commerce en JavaScript",
       "duree" : "90h",
       "animations" : "hideAnimations",
-      "rendu" : ["/imgprojets/kanap/kanap.webp","/imgprojets/kanap/kanap2.webp","/imgprojets/kanap/kanap3.webp","/imgprojets/kanap/kanap4.webp"]
+      "rendu" : ["/portfolio/imgprojets/kanap/kanap.webp","/portfolio/imgprojets/kanap/kanap2.webp","/portfolio/imgprojets/kanap/kanap3.webp","/portfolio/imgprojets/kanap/kanap4.webp"]
     },
     {
       "nom": "Hot Takes",
@@ -37,7 +37,7 @@
       "description": " Construire une API sécurisée pour une application d'avis gastronomiques",
       "duree" : "50h",
       "animations" : "hideAnimations",
-      "rendu" : ["/imgprojets/hottakes/hottakes.webp","/imgprojets/hottakes/hottakes2.webp"]
+      "rendu" : ["/portfolio/imgprojets/hottakes/hottakes.webp","/portfolio/imgprojets/hottakes/hottakes2.webp"]
     },
     {
         "nom": "Kasa",
@@ -45,7 +45,7 @@
         "description": " Créez une application web de location immobilière avec React",
         "duree" : "50h",
         "animations" : "hideAnimations",
-        "rendu" : ["/imgprojets/kasa/KASA.webp","/imgprojets/kasa/KASA2.webp","/imgprojets/kasa/KASA3.webp","/imgprojets/kasa/KASA4.webp", "/imgprojets/kasa/KASA5.webp","/imgprojets/kasa/KASA6.webp"]
+        "rendu" : ["/portfolio/imgprojets/kasa/KASA.webp","/portfolio/imgprojets/kasa/KASA2.webp","/portfolio/imgprojets/kasa/KASA3.webp","/portfolio/imgprojets/kasa/KASA4.webp", "/portfolio/imgprojets/kasa/KASA5.webp","/portfolio/imgprojets/kasa/KASA6.webp"]
       }
       ,
     {
