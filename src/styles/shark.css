@@ -962,6 +962,13 @@ overflow: hidden;
     left: 65%;
     animation: reverse-crab-move 0.5s linear 0.5s infinite alternate;
 }
+.rideau{
+    position: absolute;
+    background-color: rgb(250, 252, 124);
+    width: 100%;
+    height: 100%;
+    z-index: 21;
+}
 .bouton-lecture{
     position: absolute;
     top: 30%;
@@ -973,6 +980,7 @@ overflow: hidden;
     opacity: 50%;
     font-size: 50px;
     padding-left: 15px;
+    z-index: 100;
 }
 .bouton-lecture:hover{
     cursor: pointer;

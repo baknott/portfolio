@@ -19,17 +19,23 @@ function Home() {
         id="photoprofil"
       />
       <Part
-        title="Qui suis-je ?"
+        title="Bienvenue sur mon Portfolio !"
         classname={classAlter}
         id="entete"
         content="J'ai 28 ans et je suis papa d'une petite fille de 3 ans. 
-        Après un BTS Service informatique aux organisations (SIO) option développement d'applications j'ai travaillé pendant 4 ans pour l'hébergeur web IONOS. 
-      N'ayant pas vraiment de possibilité d'évolution intéressante dans la société j'ai décidé de mettre fin à mon contrat pour m'occuper de ma fille pendant ces 2 dernières années, 
-      j'ai décidé de me remettre au développement web que j'avais laissé de coté depuis la fin de mon BTS en suivant en paralèlle la formation Développeur Web d'Openclassrooms que j'ai terminé en Mars 2023"
+        Après un BTS Service informatique aux organisations (SIO) option développement d'applications j'ai travaillé pendant 4 ans pour l'hébergeur web IONOS. A la fin de mon contrat j'ai décidé de m'occuper de ma fille pendant ces 2 dernières années, 
+      pendant ce laps de temps j'ai suivi le parcours développeur web de Openclassrooms que j'ai terminé en Mars 2023. Je recherche une alternance dans le cadre du parcours Développeur Javascript/React d'Openclassrooms également"
       />
       {/*<Part title="Projets personels" content="" classname="part" />*/}
       <Projets state={classAlter} />
-      <button onClick={toggleClass}>Projets personels</button>
+      <div className={classAlter} id='contact'>
+        <h2>Me contacter</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/bryanpoujol/">Linkedin</a></li>
+          <li><a href="https://github.com/baknott">Github</a></li>
+        </ul>
+      </div>
+      <button onClick={toggleClass} className={classAlter} id="theButton"></button>
     </div>
   )
 }

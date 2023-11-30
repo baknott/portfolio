@@ -12,7 +12,7 @@ const Projets = ({ state, render }) => {
 
   return (
     <div className={state} id="blocProjets">
-      <h2>Projets Openclassroom :</h2>
+      <h2>Projets :</h2>
       <div className="flexHrz spaBetw">
         <div id="indexProjets">
           <ul>
@@ -35,10 +35,17 @@ const Projets = ({ state, render }) => {
                 {/* TITRE DU PROJET*/} {elementSelectionne}
               </h2>
               <p>
-                Objectif :
+                <strong>Objectif</strong> :
                 {
                   data.find((element) => element.nom === elementSelectionne)
-                    .description
+                    .objectif
+                }
+              </p>
+              <h4>Contexte :</h4>
+              <p>
+                {
+                  data.find((element) => element.nom === elementSelectionne)
+                    .contexte
                 }
               </p>
               <div>

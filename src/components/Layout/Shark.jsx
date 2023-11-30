@@ -11,7 +11,8 @@ function Shark() {
   const [crabe, setCrabe] = useState('')
   const [coco, setCoco] = useState('')
   const [boutonLecture, setBoutonLecture] = useState('bouton-lecture')
-  const [boutonReroll, setBoutonReroll] = useState('bouton-lecture')
+  const [boutonReroll, setBoutonReroll] = useState('masquer-bouton')
+  const [rideauDisplay, setRideauDisplay] = useState('rideau')
 
   const lectureClick = () => {
     setAileron('aileron-seul')
@@ -24,6 +25,7 @@ function Shark() {
     setCoco('coco')
     setBoutonLecture('masquer-bouton')
     setBoutonReroll('bouton-reroll')
+    setRideauDisplay('masquer-bouton')
   }
   const rebootClick = () => {
     setAileron('')
@@ -36,10 +38,12 @@ function Shark() {
     setCoco('')
     setBoutonLecture('bouton-lecture')
     setBoutonReroll('masquer-bouton')
+    setRideauDisplay('rideau')
   }
   return (
     <div>
       <div className="cadre">
+        <div className={rideauDisplay}></div>
         <div className="cocotier">
           <div className="feuillage">
             <div className="feuille"></div>
