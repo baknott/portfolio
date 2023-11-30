@@ -9,6 +9,7 @@ body {
   padding-right: 4%;
   font-family: Oswald;
   background-color: #808080;
+  overflow: hidden;
 }
 
 @keyframes morphing {
@@ -465,4 +466,33 @@ nav {
 a {
   text-decoration: none;
   color: black;
+}
+
+@keyframes wip {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-78%);
+  }
+}
+.wip {
+  position: absolute;
+  right: 0;
+  margin-right: -17%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.wip__img {
+  width: 15%;
+  margin-right: 10px;
+}
+.wip:hover {
+  animation: wip ease-in-out 0.5s 1 forwards alternate;
 }/*# sourceMappingURL=main.css.map */

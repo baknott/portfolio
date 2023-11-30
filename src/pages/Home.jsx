@@ -3,8 +3,8 @@ import Header from '../components/Layout/Header'
 import Part from '../components/Layout/Part'
 import Projets from '../components/Layout/Projets'
 import { ClassContext } from '../components/Layout/ClassContext'
-
 import Photo from '../images/photoCV.jpg'
+import Wip from '../images/wip.png'
 function Home() {
   const { classAlter, toggleClass } = useContext(ClassContext)
 
@@ -36,6 +36,10 @@ function Home() {
         </ul>
       </div>
       <button onClick={toggleClass} className={classAlter} id="theButton"></button>
+      <div className='wip'>
+        <img src={Wip} alt="wip" className='wip__img'/>
+        <p>Portfolio en cours de construction Dernière MàJ le 30/11/2023</p>
+      </div>
     </div>
   )
 }
