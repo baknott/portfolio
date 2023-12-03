@@ -6,7 +6,7 @@
         "contexte": " Vous débutez votre alternance en tant que développeur web au sein de la start-up Booki. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
         "duree" : "90h",
         "animations" : "hideAnimations",
-        "rendu" : ["/portfolio/imgprojets/booki/booki.webp","/portfolio/imgprojets/booki/booki2.webp","/portfolio/imgprojets/booki/booki3.webp"],
+        "rendu" : ["/imgprojets/booki/booki.webp","/imgprojets/booki/booki2.webp","/imgprojets/booki/booki3.webp"],
         "techno" : [""]
       },
       {
@@ -16,7 +16,7 @@
       "contexte": " Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Votre mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques",
       "duree" : "70h",
       "animations" : "hideAnimations",
-      "rendu" : ["/portfolio/imgprojets/ohmyfood/ohmyfood.webp","/portfolio/imgprojets/ohmyfood/ohmyfood2.webp","/portfolio/imgprojets/ohmyfood/ohmyfood3.webp"],
+      "rendu" : ["/imgprojets/ohmyfood/ohmyfood.webp","/imgprojets/ohmyfood/ohmyfood2.webp","/imgprojets/ohmyfood/ohmyfood3.webp"],
       "techno" : [""]
     },
     {
@@ -26,7 +26,7 @@
       "contexte": "Vous travaillez pour l'agence La Panthère, une grande agence de web design basée à Lyon. L’activité de l’entreprise a bien démarré mais aujourd’hui, elle est en perte de vitesse. La fondatrice de l’entreprise, Sophie, cherche une solution pour faire repartir l’activité. En tapant “Entreprise web design Lyon” sur Internet, elle s’aperçoit que le site de l’agence apparaît seulement en deuxième page des moteurs de recherche. La mission est : Analyser l’état actuel de SEO du site, améliorer le SEO et enfin comparer les resultats avant/après",
       "duree" : "30h",
       "animations" : "hideAnimations",
-      "rendu" : ["/portfolio/imgprojets/lapanthere/lapanthere.webp","/portfolio/imgprojets/lapanthere/lapanthere2.webp"],
+      "rendu" : ["/imgprojets/lapanthere/lapanthere.webp","/imgprojets/lapanthere/lapanthere2.webp"],
       "techno" : [""]
     },
     {
@@ -36,7 +36,7 @@
       "contexte": "Vous êtes en poste dans une agence de développement web depuis quelques semaines maintenant. Après avoir réalisé avec succès l’intégration de quelques sites web (HTML/CSS), on vous confie une nouvelle mission. Votre client est Kanap, une marque de canapés qui vend ses produits depuis sa boutique exclusivement. Aujourd’hui, celle-ci souhaiterait avoir une plateforme de e-commerce en plus de sa boutique physique pour vendre ses produits sur Internet.",
       "duree" : "90h",
       "animations" : "hideAnimations",
-      "rendu" : ["/portfolio/imgprojets/kanap/kanap.webp","/portfolio/imgprojets/kanap/kanap2.webp","/portfolio/imgprojets/kanap/kanap3.webp","/portfolio/imgprojets/kanap/kanap4.webp"],
+      "rendu" : ["/imgprojets/kanap/kanap.webp","/imgprojets/kanap/kanap2.webp","/imgprojets/kanap/kanap3.webp","/imgprojets/kanap/kanap4.webp"],
       "techno" : [""]
     },
     {
@@ -46,7 +46,7 @@
       "contexte": "Vous avez passé la dernière année en tant que développeur back-end indépendant et vous avez travaillé sur plusieurs projets de tailles et de difficultés variées. La semaine dernière, vous avez reçu un message sur votre plateforme de freelance vous demandant de l'aide pour un nouveau projet. Les sauces piquantes sont de plus en plus populaires, en grande partie grâce à la série YouTube « Hot Ones » . C’est pourquoi ce nouveau client, la marque de condiments à base de piment Piiquante, veut développer une application web de critique des sauces piquantes appelée « Hot Takes » . Si la responsable produit de Piiquante souhaite à terme transformer l'application d'évaluation en une boutique en ligne, elle souhaite que la première version soit une « galerie de sauces » permettant aux utilisateurs de télécharger leurs sauces piquantes préférées et de liker ou disliker les sauces que d'autres partagent. Le front-end de l'application a été développé à l'aide d'Angular et a été précompilé après des tests internes, mais Piiquante a besoin d'un développeur back-end pour construire l'API. Le délai est raisonnable, vous décidez donc d'accepter le projet.",
       "duree" : "50h",
       "animations" : "hideAnimations",
-      "rendu" : ["/portfolio/imgprojets/hottakes/hottakes.webp","/portfolio/imgprojets/hottakes/hottakes2.webp"],
+      "rendu" : ["/imgprojets/hottakes/hottakes.webp","/imgprojets/hottakes/hottakes2.webp"],
       "techno" : [""]
     },
     {
@@ -56,7 +56,7 @@
         "contexte": "Kasa vous recrute en tant que développeur front-end en freelance pour développer sa nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end.",
         "duree" : "50h",
         "animations" : "hideAnimations",
-        "rendu" : ["/portfolio/imgprojets/kasa/KASA.webp","/portfolio/imgprojets/kasa/KASA2.webp","/portfolio/imgprojets/kasa/KASA3.webp","/portfolio/imgprojets/kasa/KASA4.webp", "/portfolio/imgprojets/kasa/KASA5.webp","/portfolio/imgprojets/kasa/KASA6.webp"],
+        "rendu" : ["/imgprojets/kasa/KASA.webp","/imgprojets/kasa/KASA2.webp","/imgprojets/kasa/KASA3.webp","/imgprojets/kasa/KASA4.webp", "/imgprojets/kasa/KASA5.webp","/imgprojets/kasa/KASA6.webp"],
         "techno" : [""]
       }
       ,
