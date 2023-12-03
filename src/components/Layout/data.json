@@ -64,7 +64,7 @@
         "nom": "Animations",
         "label": "CSS",
         "objectif": " S'entraîner au CSS",
-        "contexte": "Je souhaitais travailler un peu les animations, dans le premier cas j'ai voulu animer un oiseau cartoonesque dans une boucle qui rendrais le mouvement a peu prêt réaliste, dans le second cas j'ai voulu faire une sorte de diorama animé dans dans un cadre simulant un player vidéo, tout à été réalisé à base de blocs HTML et de CSS",
+        "contexte": "Je souhaitais travailler un peu les animations, dans le premier cas j'ai voulu animer un oiseau cartoonesque dans une boucle qui rendrais le mouvement a peu prêt réaliste, dans le second cas j'ai voulu faire une sorte de diorama animé dans un cadre simulant un player vidéo, tout à été réalisé à base de blocs HTML et de CSS",
         "duree" : "50h",
         "animations" : "displayAnimations",
         "techno" : [""]

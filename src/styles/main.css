@@ -8,7 +8,7 @@ body {
   padding-left: 3%;
   padding-right: 4%;
   font-family: Oswald;
-  background-color: #808080;
+  background-color: #c4c4c4;
   overflow: hidden;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 .state0#bodyCover {
   position: absolute;
-  background-color: rgb(250, 252, 124);
+  background-color: white;
   width: 35%;
   height: 100%;
   z-index: -1;
@@ -52,7 +52,7 @@ body {
 
 .state1#bodyCover {
   position: absolute;
-  background-color: rgb(250, 252, 124);
+  background-color: white;
   width: 35%;
   height: 100%;
   z-index: -1;
@@ -101,20 +101,23 @@ body {
   }
 }
 .state0#entete {
-  background-color: rgb(250, 252, 124);
+  background-color: white;
   width: 50%;
   padding: 2%;
   margin-bottom: 5%;
-  border: 1px solid black;
-  animation: liftoff 1.5s 1 ease-in-out forwards alternate;
+  border-radius: 20px;
+  opacity: 0;
+  animation: display 0.5s ease-in-out 1s 1 forwards alternate;
 }
 
 .state1#entete {
-  background-color: rgb(250, 252, 124);
+  background-color: white;
   width: 50%;
   padding: 2%;
   margin-bottom: 5%;
-  animation: landing 0.5s 1 ease-in-out forwards alternate;
+  border-radius: 20px;
+  opacity: 1;
+  animation: disappear 0.5s ease-in-out 1 forwards alternate;
 }
 
 @keyframes disappear {
@@ -138,7 +141,7 @@ body {
   height: auto;
   width: 13.5%;
   margin-left: 60%;
-  border: 1px solid black;
+  border-radius: 20px;
   opacity: 0;
   animation: display 0.5s ease-in-out 1s 1 forwards alternate;
 }
@@ -148,7 +151,7 @@ body {
   height: auto;
   width: 13.5%;
   margin-left: 60%;
-  border: 1px solid black;
+  border-radius: 20px;
   opacity: 1;
   animation: disappear 0.5s ease-in-out 1 forwards alternate;
 }
@@ -164,6 +167,10 @@ button {
   position: absolute;
   top: 80%;
   height: 50px;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .state0#blocProjets {
@@ -205,8 +212,6 @@ ul {
 }
 
 .displayProjets {
-  color: rgb(250, 252, 124);
-  text-shadow: 1px 1px 2px black;
   width: 120%;
   height: 100%;
   position: absolute;
@@ -467,6 +472,9 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  -webkit-text-stroke: 1px white;
+}
 
 @keyframes wip {
   from {
@@ -477,6 +485,7 @@ a {
   }
 }
 .wip {
+  background-color: #8b7878;
   position: absolute;
   right: 0;
   margin-right: -17%;
@@ -485,7 +494,6 @@ a {
   align-items: center;
   height: 10%;
   width: 20%;
-  border: 1px solid black;
   border-radius: 10px;
   padding-left: 10px;
 }
@@ -494,5 +502,36 @@ a {
   margin-right: 10px;
 }
 .wip:hover {
+  cursor: pointer;
   animation: wip ease-in-out 0.5s 1 forwards alternate;
+}
+
+@keyframes colorbender {
+  from {
+    color: black;
+  }
+  to {
+    color: white;
+  }
+}
+h1:hover {
+  color: black;
+  transform-origin: right;
+  animation: colorbender ease-in-out 0.5s 1 forwards;
+}
+
+h1::-moz-selection {
+  color: #dd8965;
+}
+
+h1::selection {
+  color: #dd8965;
+}
+
+li::-moz-selection {
+  color: #e7d3cb;
+}
+
+li::selection {
+  color: #e7d3cb;
 }/*# sourceMappingURL=main.css.map */
