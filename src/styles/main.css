@@ -9,7 +9,6 @@ body {
   padding-right: 4%;
   font-family: Oswald;
   background-color: #c4c4c4;
-  overflow: hidden;
 }
 
 @keyframes morphing {
@@ -453,8 +452,8 @@ nav {
 .state0#contact {
   position: absolute;
   top: 20%;
-  right: 0%;
-  width: 13.5%;
+  right: 5%;
+  width: 15%;
   opacity: 0;
   animation: display 0.5s ease-in-out 1s 1 forwards alternate;
 }
@@ -462,8 +461,8 @@ nav {
 .state1#contact {
   position: absolute;
   top: 20%;
-  right: 0%;
-  width: 13.5%;
+  right: 5%;
+  width: 15%;
   opacity: 1;
   animation: disappear 0.5s ease-in-out 1 forwards alternate;
 }
@@ -478,32 +477,46 @@ a:hover {
 
 @keyframes wip {
   from {
-    transform: translateX(0%);
+    width: 3.5%;
   }
   to {
-    transform: translateX(-78%);
+    width: 20%;
+  }
+}
+@keyframes wiptxt {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 .wip {
   background-color: #8b7878;
   position: absolute;
   right: 0;
-  margin-right: -17%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10%;
-  width: 20%;
-  border-radius: 10px;
+  width: 3.5%;
+  border-radius: 10px 0px 0px 10px;
   padding-left: 10px;
+  overflow: hidden;
 }
 .wip__img {
-  width: 15%;
+  width: 40px;
   margin-right: 10px;
+}
+.wip p {
+  opacity: 0;
 }
 .wip:hover {
   cursor: pointer;
   animation: wip ease-in-out 0.5s 1 forwards alternate;
+}
+.wip:hover p {
+  animation: wiptxt 0.1s ease-in-out 0.5s 1 forwards alternate;
 }
 
 @keyframes colorbender {
@@ -516,8 +529,9 @@ a:hover {
 }
 h1:hover {
   color: black;
+  /*
   transform-origin: right;
-  animation: colorbender ease-in-out 0.5s 1 forwards;
+  animation: colorbender ease-in-out 0.5s  1 forwards;*/
 }
 
 h1::-moz-selection {

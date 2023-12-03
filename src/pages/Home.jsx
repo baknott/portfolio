@@ -29,10 +29,12 @@ function Home() {
       {/*<Part title="Projets personels" content="" classname="part" />*/}
       <Projets state={classAlter} />
       <div className={classAlter} id='contact'>
-        <h2>Me contacter</h2>
+        <h2>Liens & Contact</h2>
         <ul>
           <li><a href="https://www.linkedin.com/in/bryanpoujol/">Linkedin</a></li>
           <li><a href="https://github.com/baknott">Github</a></li>
+          <li>mail : poujolbryan@gmail.com</li>
+          <li>tél : 0689205965</li>
         </ul>
       </div>
       <button onClick={toggleClass} className={classAlter} id="theButton"></button>
