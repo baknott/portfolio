@@ -38,7 +38,7 @@ function Home() {
       <button onClick={toggleClass} className={classAlter} id="theButton"></button>
       <div className='wip'>
         <img src={Wip} alt="wip" className='wip__img'/>
-        <p>Portfolio en cours de construction Dernière MàJ le 30/11/2023</p>
+        <p>Portfolio en cours de construction Dernière MàJ le 03/12/2023</p>
       </div>
     </div>
   )
